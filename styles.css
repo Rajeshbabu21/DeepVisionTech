@@ -1,15 +1,15 @@
 body {
-  width: 900px;
-  padding: 10px;
-  font-family: Arial, sans-serif;
+    width: 200px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
 }
 button {
-  width: 100%;
-  padding: 5px;
-  margin: 5px 0;
-  cursor: pointer;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    cursor: pointer;
 }
 ul {
-  list-style-type: none;
-  padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
