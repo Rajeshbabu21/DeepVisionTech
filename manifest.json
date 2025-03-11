@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Web Clipper",
+  "version": "1.0",
+  "description": "Clip web content easily!",
+  "permissions": ["activeTab", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
